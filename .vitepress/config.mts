@@ -2,13 +2,13 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Supernova Docs",
+  title: "Apex Pathing Docs",
   description: "Documentation for the Supernova pathing library for FTC",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Examples', link: '/' }
     ],
 
     sidebar: [
