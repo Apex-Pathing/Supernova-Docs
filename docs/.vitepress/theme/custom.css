@@ -17,10 +17,14 @@
   display: inline-block;
 }
 /* Targets the title text inside :::info containers */
-.custom-block.info .custom-block-title {
-  color: #ff69b4; /* Your preferred pink hex code */
-}
 
+.custom-block.info .custom-block-title {
+  background: linear-gradient(to right, #f06, #4a90e2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: bold;
+}
 /* Optional: Change the left border color to match */
 .custom-block.info {
   border-color: #ff69b4;

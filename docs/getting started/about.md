@@ -1,4 +1,8 @@
 # Our Story
+---
+pageClass: gradient-title-page
+---
+
 
 :::info What Do Our Goals look like?
 Our mission is to develop the most efficient and versatile localizer for autonomous pathing,
