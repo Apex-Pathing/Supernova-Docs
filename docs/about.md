@@ -16,6 +16,7 @@ We'd like to take a moment to thank them here:
 * 26192 - Heatwaves
 * 13085 - Bionic Dutch
 * 30380 - Bitflip
+* 25246- UPA golden eagles
 * 27621 - Heron - Alumni
 * 23571 - JEdison Knights - Alumni
 * and more...
