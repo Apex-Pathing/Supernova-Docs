@@ -1,36 +1,21 @@
-/**
- * Animated Hero Title
- */
-:root {
-  /* This defines the gradient and the animation */
-  --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: linear-gradient(
+/* docs/.vitepress/theme/custom.css */
+
+.VPHero .name {
+  background: linear-gradient(
     120deg, 
     #ff4500 0%, 
-    #ff8c00 25%, 
     #7b2ff7 50%, 
-    #ff4500 75%, 
-    #ff8c00 100%
+    #ff4500 100%
   );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 4s linear infinite;
+  display: inline-block;
 }
 
-/* Apply the animation to the Hero Name */
-.VPHero .name {
-  background-size: 200% auto !important;
-  background-clip: text !important;
-  -webkit-background-clip: text !important;
-  animation: shine 4s linear infinite !important;
-}
-
-/* The math for the movement */
 @keyframes shine {
   to {
     background-position: 200% center;
   }
-}
-
-/* Optional: Make the text thicker so the animation is more visible */
-.VPHero .name {
-  font-weight: 800;
-  letter-spacing: -1px;
 }
