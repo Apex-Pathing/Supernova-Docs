@@ -4,11 +4,10 @@
   /* SEAMLESS UNIDIRECTIONAL GRADIENT */
   background: linear-gradient(
     120deg, 
-    #00D2FF 0%,   /* Start: Cyan */
-    #7B61FF 25%,  /* Transition: Blue/Purple */
-    #C21BFF 50%,  /* Middle: Magenta */
-    #7B61FF 75%,  /* Transition back */
-    #00D2FF 100%  /* End: Cyan (Match the start!) */
+    #00a8cc 0%,   /* Dimmer Cyan Start */
+    #7B61FF 25%,  /* Purple */
+    #C21BFF 50%,  /* Magenta */
+    #00a8cc 100%  /* Dimmer Cyan End (Matches 0%) */
   );
   background-size: 200% auto;
   -webkit-background-clip: text;
