@@ -16,7 +16,7 @@ this can be changed in the LateralVelocityTuner.java file. Longer Distances yiel
 better results.
 :::
 
-style>
+<style>
 /* If you prefer to keep the CSS inside this specific file instead of custom.css,
 you can paste this block at the bottom of your Markdown file: */
 .custom-block.info .custom-block-title {
