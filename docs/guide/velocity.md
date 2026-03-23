@@ -1,4 +1,4 @@
-# GUIDE FOR TUNING
+# Velocity Tuners
 Here's our advice for tuning your robot:
 
 ::: info Forward Velocity Tuner
