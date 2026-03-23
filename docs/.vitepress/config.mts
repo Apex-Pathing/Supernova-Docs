@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import guide from "./sidebar/guide.mts";
 
 export default defineConfig({
   title: "ApexPathing Docs",
@@ -16,24 +17,9 @@ export default defineConfig({
     
     
     //sidebar stuff
-     sidebar: [
-      {// Getting started area thingy, next header will be outside of this area in a new {} loop (irdk what to call it man)
-        text: 'Getting Started',//header
-        items: [//items under header
-          { text: 'About',
-            link: '/getting started/about' 
-          },
-    
-          
-          { text: 'Installation',
-            link: '/getting started/installation' 
-          }
-        ],
-      },
-      {
-        text: 'Tuning'
-      }
-    ]
+     sidebar: {
+        '/guide/': guide
+     }
   }
 
 })
