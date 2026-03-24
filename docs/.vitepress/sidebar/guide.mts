@@ -9,6 +9,7 @@ export default [
             { text: "Localization Test", link: "/guide/localization-test" },
             { text: "FeedForward Tuner", link: "/guide/feedforward-tuner" },
             { text: "Current Limiting Test", link: "/guide/current-limiting-test" },
+            { text: "Forward Deceleration Tuner", link: "/guide/forward-deceleration-tuner" },
         ]
     }
 ] satisfies SidebarItem[]
