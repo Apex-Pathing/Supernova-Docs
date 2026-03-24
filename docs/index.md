@@ -113,6 +113,8 @@ follower.followPath(path);
 ```
 
 :::
+
+</CodeBlock>
         
 </div>
 </div>
