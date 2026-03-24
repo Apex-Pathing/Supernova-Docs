@@ -14,6 +14,7 @@ hero:
 ---
 
 <div id="content-holder-long" class="body-style">
+<h1> Why you should choose Apex Pathing </h1>
   <div id="flex-box-grid" data-role="flex-hoverable" class="body-style">
     <div>
       <img src="/images/apex_logo.png" width="50" height="20" alt="ApexPathing Logo">
@@ -48,12 +49,12 @@ hero:
   <p>Insert information here</p>
 </div>
 
-<div id="content-holder-long" class="information-container">
-  <h1>Documentation</h1> 
-  <p>Insert information here</p>
+<div id="content-holder-long" class="body-style">
+  <h1>Quintic Spline Based Pathing</h1> 
+  <p>We use Quintic Splins to do [INFORMATION]</p>
 </div>
 
-<div id="content-holder-long" class="information-container">
+<div id="content-holder-long" class="idk-container">
   <div id="flex-box-grid" class="idk-container">
     <div id="left-side">
       <div id="contain">
@@ -68,6 +69,27 @@ hero:
   </div>
 </div>
 
+
+<div id="content-holder-long" class="body-style">
+  <h1>Welcome to Apex Pathing</h1> 
+  <p>Insert information here</p>
+</div>
+
+<div id="content-holder-long" class="information-container">
+  <h1>Documentation</h1> 
+  <p>Insert information here</p>
+</div>
+<div id="content-holder-long" class="idk-container">
+  <div id="flex-box-grid" class="idk-container">
+    <div id="right-side">
+      <div id="contain">
+        <h1 style="text-align: center"> Documentation Information </h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 <style>
    #flex-box-grid {
     display: grid;
@@ -77,6 +99,7 @@ hero:
     gap: 10px;
     column-gap: 10px;
     height: 25vw;
+    max-height: 500px;
     width: min-width;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
    }

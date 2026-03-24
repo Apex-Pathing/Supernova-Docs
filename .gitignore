@@ -6,10 +6,6 @@
 .yarn/install-state.gz
 .pnp.*
 yarn.lock
-
-# Dependencies
 node_modules/
-
-# VitePress build output
 docs/.vitepress/dist
 docs/.vitepress/cache
