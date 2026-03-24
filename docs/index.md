@@ -69,6 +69,43 @@ hero:
     </div>
     <div id="right-side">
       <div id="contain">
+
+```java
+path = follower.pathBuilder()
+          .addPath(
+            new BezierLine(scorePose, pickupPose)
+          )
+          .setLinearHeadingInterpolation(
+            scorePose.getHeading(),
+            pickupPose.getHeading()
+          )
+          .addPath(
+            new BezierLine(pickupPose, scorePose)
+          )
+          .setLinearHeadingInterpolation(
+            pickupPose.getHeading(),
+            scorePose.getHeading()
+          )
+          .build();
+        follower.followPath(path);
+```
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="content-holder-long" class="idk-container">
+  <div id="flex-box-grid" class="idk-container">
+    <div id="left-side">
+      <div id="contain">
+        <h1> Welcome to Apex Pathing </h1>
+        <h3> insert info here yada yada yada yada yada yada yada yada yada yada yada yada yada yada yada yada  </h3>
+      </div>
+    </div>
+    <div id="right-side">
+      <div id="contain">
         <pre>
           path = follower.pathBuilder()
           .addPath(
