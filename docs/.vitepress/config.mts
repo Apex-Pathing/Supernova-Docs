@@ -5,7 +5,7 @@ export default defineConfig({
   title: "ApexPathing Docs",
   description: 'ApexPathing Docs',
   head: [
-    ['link', { rel: 'icon', href: '/images/logo.png' }]
+    ['link', { rel: 'icon', href: '/images/apex_logo.png' }]
   ],
   base: '/Supernova-Docs/',
   themeConfig: {
