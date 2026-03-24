@@ -70,12 +70,8 @@ hero:
 <div id="right-side">
 <div id="contain">
 
-:::tabs key:code
-== kotlin
-
-An example piece of a path written using ApexPathing
-
-```kotlin
+::: code-group
+```kotlin [kotlin]
 val path = follower.pathBuilder()
     .addPath(
         BezierLine(scorePose, pickupPose)
@@ -93,12 +89,8 @@ val path = follower.pathBuilder()
     )
     .build()
 ```
-
-== java
-
-An example piece of a path written using ApexPathing
       
-```java
+```java [java]
 Path path = follower.pathBuilder()
     .addPath(
         new BezierLine(scorePose, pickupPose)
