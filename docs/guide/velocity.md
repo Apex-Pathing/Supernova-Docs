@@ -1,19 +1,24 @@
-# Velocity Tuners
+# Forward and Lateral Velocity Tuners
 Here's our advice for tuning your robot:
 
-::: info Forward Velocity Tuner
+Forward Velocity Tuner
 The forward velocity tuner determines your robot’s maximum forward speed 
 in order to accurately run your robot at its top speed. 
 The robot will run forward for 40 inches, b
 ut this can be changed in the ForwardVelocityTuner.java file. 
 A longer distance is better as it allows the robot to his higher speeds
-:::
 
-::: info Lateral Velocity Tuner
+
+Lateral Velocity Tuner
 The lateral velocity tuner determines your robot’s maximum strafe speed to accurately 
 create paths. The robot will run in the x positive (left) direction for 40 inches but 
 this can be changed in the LateralVelocityTuner.java file. Longer Distances yield 
 better results.
+
+
+
+:::tip
+We recommend using a freshly charge battery for this test
 :::
 
 <style>

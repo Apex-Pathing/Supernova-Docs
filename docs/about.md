@@ -4,15 +4,15 @@ next:
   link: '/guide/installation'
 ---
 
-# Our Story { .gradient-title-page }
+# Our Story { .gradient-title-page
 
-:::info What Do Our Goals look like?
+# What Do Our Goals look like?
 Our mission is to develop the most efficient and versatile localizer for autonomous pathing,
 supporting swerve, mecanum, and tank drive as well as multiple localizers. We aim to use
 Quintic Splines to achieve our goals of efficiency.
-:::
 
-:::info Our Contributors
+
+# Our Contributors
 Our pathing library has been a big project, and many teams contributed to our success.
 We'd like to take a moment to thank them here:
 * 31616 - 404 Not Found
@@ -28,7 +28,7 @@ We'd like to take a moment to thank them here:
 * 14708 - Short Circuits
 * 25957 - Quantum Igniters
 * and more...
-  :::
+
 
 <style>
 .custom-block.info .custom-block-title {
