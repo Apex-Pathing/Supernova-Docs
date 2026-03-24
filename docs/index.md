@@ -118,12 +118,6 @@ follower.followPath(path);
 ```
 
 :::
-
-<div class="card-text">
-This is exactly how <code>NextFTC</code> does it.
-</div>
-
-:::
         
 </div>
 </div>
