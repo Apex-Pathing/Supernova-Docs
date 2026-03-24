@@ -7,8 +7,8 @@
     "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {
-    "vitepress": "latest",
-    "vue": "latest",
-    "typescript": "latest"
+    "typescript": "latest",
+    "vitepress": "^1.6.4",
+    "vue": "latest"
   }
 }

@@ -1,2 +1,0 @@
-Apex Pathing is an open sourced pathing library which allows users to revolutionize their autonomous routine. It's specifically built for FIRST Tech Challenge and was developed by FTC students. Apex Pathing currently supports tank drive, swerve, and mecanum drive, as well as pinpoint localizer, 3 wheel localizer, and 2 wheel localizer \+ IMU. Apex Pathing allows its users to create autonomous routines using Quintic Hermite Splines.
-
