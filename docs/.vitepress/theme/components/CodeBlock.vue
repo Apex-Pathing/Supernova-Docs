@@ -1,8 +1,6 @@
 <template>
-  <div class="custom-code-block-wrapper">
-    <div v-if="description" class="insertion-point">
-      <div class="code-description" v-html="description"></div>
-    </div>
+  <div class="custom-code-card">
+    <div v-if="description" class="card-desc" v-html="description"></div>
     <slot></slot>
   </div>
 </template>
@@ -12,7 +10,9 @@ defineProps(['description'])
 </script>
 
 <style scoped>
-.custom-code-block-wrapper {
+.custom-code-card {
+  display: flex;
+  flex-direction: column;
   margin: 16px 0;
   border: 1px solid var(--vp-c-divider);
   border-radius: 8px;
@@ -20,39 +20,42 @@ defineProps(['description'])
   background-color: var(--vp-code-block-bg);
 }
 
-/* 1. Force the internal VitePress group to be a flex container */
-:deep(.vp-code-group) {
-  display: flex !important;
-  flex-direction: column !important;
-}
-
-/* 2. TAB BAR: Set to first position */
-:deep(.vp-code-group .tabs) {
-  order: 1 !important;
-  margin-bottom: 0 !important;
-  border-bottom: 1px solid var(--vp-c-divider) !important;
-}
-
-/* 3. DESCRIPTION: We "teleport" it visually using order 2 */
-/* We move the whole insertion-point into the flex flow of the group */
-.insertion-point {
-  display: contents; /* Makes this div "invisible" so child can use parent flex */
-}
-
-.code-description {
-  order: 2 !important;
-  padding: 12px 16px;
-  font-size: 0.9em;
+/* 2. Style the description to look like your reference image */
+.card-desc {
+  padding: 14px 16px;
+  font-size: 0.95em;
   color: var(--vp-c-text-1);
   background-color: var(--vp-c-bg-soft);
   border-bottom: 1px solid var(--vp-c-divider);
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
-/* 4. CODE CONTENT: Set to third position */
-:deep(.vp-code-group div[class*='language-']) {
-  order: 3 !important;
-  border-radius: 0 !important;
+/* 3. Handle the Code Group specifically */
+:deep(.vp-code-group) {
   margin: 0 !important;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 4. Ensure Tabs are always at the top of the internal group */
+:deep(.tabs) {
+  order: -1 !important; 
+  background-color: var(--vp-code-tab-bg);
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+/* 5. Clean up the code blocks */
+:deep(div[class*='language-']) {
+  margin: 0 !important;
+  border-radius: 0 !important;
+}
+
+/* This adds the 'inline-code' pill look from your image */
+:deep(.card-desc code) {
+  background-color: var(--vp-c-bg-mute);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: var(--vp-font-family-mono);
+  font-size: 0.85em;
 }
 </style>
