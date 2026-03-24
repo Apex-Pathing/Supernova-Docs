@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import {tabsMarkdownPlugin} from "vitepress-plugin-tabs";
 import guide from "./sidebar/guide.mts";
 
 export default defineConfig({
@@ -20,10 +21,15 @@ export default defineConfig({
     
     
     //sidebar stuff
-     sidebar: {
-        '/guide/': guide
-     }
+    sidebar: {
+      '/guide/': guide
+    }
   },
-  appearance: 'force-dark' 
+  appearance: 'force-dark',
+  markdown: {
+    config(md) {
+      md.use(tabsMarkdownPlugin);
+    }
+  },
 
 })
