@@ -11,7 +11,7 @@ export default {
       // You can add your custom button to the 'nav-bar-content-after' or 'nav-bar-content-before' slot
       'nav-bar-content-after': () => h(CustomNavButton)
     })
-  }
+  },
   enhanceApp({ app }) {
     app.component('CodeBlock', CodeBlock)
   }
