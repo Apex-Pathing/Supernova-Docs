@@ -56,7 +56,7 @@ hero:
 
 <div id="content-holder-long" class="body-style">
   <h1>Quintic Spline Based Pathing</h1> 
-  <p>We use Quintic Splins to do [INFORMATION]</p>
+  <p>We use Quintic Splines to do [INFORMATION]</p>
 </div> -->
 
 <div id="content-holder-long" class="idk-container">
@@ -64,7 +64,7 @@ hero:
 <div id="left-side">
 <div id="contain">
 <h1> Welcome to Apex Pathing </h1>
-<h3> insert info here yada yada yada yada yada yada yada yada yada yada yada yada yada yada yada yada  </h3>
+<h3>Apex Pathing is a complex path follower made specifically for FTC autonomous. We support swerve and use quintic splines to maximize speed, efficiency and accuracy.    </h3>
 </div>
 </div>
 <div id="right-side">
